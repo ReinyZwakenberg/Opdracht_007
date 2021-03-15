@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Reiny Zwakenberg </title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <header class="box-model-properties">
+        <h1 class="titel">CURRICULUM VITAE</h1>
+        <h1 class="subtitel">REINY ZWAKENBERG</h1>
+        <p class="ondertitel"> ENTHOUSIAST - BETROKKEN - ANALYTISCH - NIEUWSGIERIG - OPLOSSINGSGERICHT </p>
+    </header>
+    <nav class="box-model-properties">
+        <ul class="navigationbar">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="werkervaring.html">WERKERVARING</a></li>
+            <li><a href="opleiding.html">OPLEIDING</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+            <li><a href="recepten.html">RECEPTEN</a></li>
+        </ul>
+    </nav>
+    <main class="box-model-properties">
+        <form name="recepten" method="POST" data-netlify="true">
+            <p>
+                <label>Naam: <input type="text" name="name" /></label>
+            </p>
+            <p>
+                <label>Email: <input type="email" name="email" /></label>
+            </p>
+            <p>
+                <label>Telefoonnummer: <input type="tel" name="tel" /></label>
+            </p>
+            <p>
+                <label>Leeftijd: <input type="date" name="birthday" /></label>
+            </p>
+            <p>
+                <label>Geslacht:<br>
+                    <input type="radio" id="male" name="gender" value="man">
+                    <label for="male">man</label><br>
+                    <input type="radio" id="female" name="gender" value="vrouw">
+                    <label for="female">vrouw</label><br>
+                    <input type="radio" id="other" name="gender" value="anders">
+                    <label for="other">anders</label>
+                </label>
+            </p>
+            <p>
+                <label>Favorite cuisine:<br>
+                    <input type="checkbox" id="cuisine1" name="cuisine1" value="Frans">
+                    <label for="cuisine1"> Frans</label><br>
+                    <input type="checkbox" id="cuisine2" name="cuisine2" value="Spaans">
+                    <label for="vehicle2"> Spaans</label><br>
+                    <input type="checkbox" id="cuisine3" name="cuisine3" value="Italiaans">
+                    <label for="cuisine3"> Italiaans</label><br>
+                    <input type="checkbox" id="cuisine4" name="cuisine4" value="Arabisch">
+                    <label for="cuisine4"> Arabisch</label>
+                </label>
+            </p>
+            <p>
+                <label for="favcolor">Favorite kleur van short:</label>
+                <input type="color" id="favcolor" name="favcolor">
+            </p>
+            <p>
+                <label>Biografie: <textarea name="message"></textarea></label>
+            </p>
+            <p>
+                <label for="myfile">Upload je laatste recept:</label>
+                <input type="file" id="myfile" name="myfile">
+            </p>
+            <p>
+                <label>URL website: <input type="url" name="url" /></label>
+            </p>
+            <p>
+                <button type="reset">Resetten</button>
+                <button type="submit">Verzenden</button>
+            </p>
+        </form>
+    </main>
+    <footer class="box-model-properties">
+        <h6>Copywright Reiny Zwakenberg</h6>
+    </footer>
+</body>
+
+</html>
